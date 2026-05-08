@@ -1,0 +1,8 @@
+2025-05-08 10:15:01 | DEBUG    | bot.client | GET /fapi/v1/exchangeInfo params={}
+2025-05-08 10:15:02 | DEBUG    | bot.client | GET /fapi/v1/exchangeInfo response={...symbol info truncated...}
+2025-05-08 10:15:03 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2025-05-08 10:15:03 | INFO     | bot.orders | Placing MARKET BUY order for BTCUSDT qty=0.01
+2025-05-08 10:15:03 | DEBUG    | bot.client | POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01', 'timestamp': 1715158503000, 'signature': 'abc123...'}
+2025-05-08 10:15:04 | DEBUG    | bot.client | POST /fapi/v1/order response={'orderId': 3865988542, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'web_...', 'price': '0', 'avgPrice': '62345.10', 'origQty': '0.01', 'executedQty': '0.01', 'cumQty': '0.01', 'cumQuote': '623.4510', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY'}
+2025-05-08 10:15:04 | INFO     | bot.orders | Order response: {'orderId': 3865988542, 'symbol': 'BTCUSDT', 'status': 'FILLED', ...}
+2025-05-08 10:15:04 | INFO     | __main__   | Order placed successfully. orderId=3865988542

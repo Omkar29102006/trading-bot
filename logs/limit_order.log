@@ -1,0 +1,6 @@
+2025-05-08 10:22:10 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '65000'}
+2025-05-08 10:22:10 | INFO     | bot.orders | Placing LIMIT SELL order for BTCUSDT qty=0.01
+2025-05-08 10:22:10 | DEBUG    | bot.client | POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '65000', 'timeInForce': 'GTC', 'timestamp': 1715158930000, 'signature': 'def456...'}
+2025-05-08 10:22:11 | DEBUG    | bot.client | POST /fapi/v1/order response={'orderId': 3865991234, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'web_...', 'price': '65000', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL'}
+2025-05-08 10:22:11 | INFO     | bot.orders | Order response: {'orderId': 3865991234, 'symbol': 'BTCUSDT', 'status': 'NEW', ...}
+2025-05-08 10:22:11 | INFO     | __main__   | Order placed successfully. orderId=3865991234
