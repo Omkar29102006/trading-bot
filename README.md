@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🤖 Binance Futures Testnet Trading Bot
 
 A clean, structured Python CLI application to place orders on the **Binance Futures Testnet (USDT-M)**.
@@ -155,7 +155,4 @@ Sample log files are in `logs/`:
 | `httpx` | Async-capable HTTP client for REST API calls |
 
 > No `python-binance` library is used — all API calls are direct REST with HMAC-SHA256 signing.
-=======
-# trading-bot
-Binance Futures Testnet Trading Bot
->>>>>>> d6e13f0d0bd5637bd99c742f2da4b39887f078a1
+
