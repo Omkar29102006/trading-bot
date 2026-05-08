@@ -8,3 +8,23 @@
 2026-05-08 17:36:25 | INFO     | bot.orders | Placing LIMIT SELL order for BTCUSDT qty=0.01
 2026-05-08 17:36:25 | INFO     | bot.orders | [DRY-RUN] Simulated order response: {'orderId': 6112716504, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'dryrun_1778241985', 'price': '65000', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL'}
 2026-05-08 17:36:25 | INFO     | __main__ | Order placed successfully. orderId=6112716504
+2026-05-08 17:58:01 | INFO     | __main__ | Running in DRY-RUN mode
+2026-05-08 17:58:01 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2026-05-08 17:58:01 | INFO     | bot.orders | Placing MARKET BUY order for BTCUSDT qty=0.01
+2026-05-08 17:58:01 | INFO     | bot.orders | [DRY-RUN] Simulated order response: {'orderId': 5709001260, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'dryrun_1778243281', 'price': '0', 'avgPrice': '62345.1', 'origQty': '0.01', 'executedQty': '0.01', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY'}
+2026-05-08 17:58:01 | INFO     | __main__ | Order placed successfully. orderId=5709001260
+2026-05-08 17:58:09 | INFO     | __main__ | Running in DRY-RUN mode
+2026-05-08 17:58:09 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.01'}
+2026-05-08 17:58:09 | INFO     | bot.orders | Placing MARKET SELL order for BTCUSDT qty=0.01
+2026-05-08 17:58:09 | INFO     | bot.orders | [DRY-RUN] Simulated order response: {'orderId': 3244790940, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'dryrun_1778243289', 'price': '0', 'avgPrice': '62345.1', 'origQty': '0.01', 'executedQty': '0.01', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'SELL'}
+2026-05-08 17:58:09 | INFO     | __main__ | Order placed successfully. orderId=3244790940
+2026-05-08 17:58:36 | INFO     | __main__ | Running in DRY-RUN mode
+2026-05-08 17:58:36 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.01', 'price': '60000'}
+2026-05-08 17:58:36 | INFO     | bot.orders | Placing LIMIT BUY order for BTCUSDT qty=0.01
+2026-05-08 17:58:36 | INFO     | bot.orders | [DRY-RUN] Simulated order response: {'orderId': 4818124739, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'dryrun_1778243316', 'price': '60000', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'BUY'}
+2026-05-08 17:58:36 | INFO     | __main__ | Order placed successfully. orderId=4818124739
+2026-05-08 17:58:45 | INFO     | __main__ | Running in DRY-RUN mode
+2026-05-08 17:58:45 | INFO     | bot.orders | Order request summary: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '65000'}
+2026-05-08 17:58:45 | INFO     | bot.orders | Placing LIMIT SELL order for BTCUSDT qty=0.01
+2026-05-08 17:58:45 | INFO     | bot.orders | [DRY-RUN] Simulated order response: {'orderId': 5363624722, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'dryrun_1778243325', 'price': '65000', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL'}
+2026-05-08 17:58:45 | INFO     | __main__ | Order placed successfully. orderId=5363624722
